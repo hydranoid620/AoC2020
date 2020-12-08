@@ -1,0 +1,5 @@
+.gitignore
+.idea/discord.xml
+node_modules
+*.js
+*.map
