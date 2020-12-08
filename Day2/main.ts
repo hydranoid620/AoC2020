@@ -14,6 +14,11 @@ export function main(input: string): number {
     return validPasswords;
 }
 
+export function main2(input: string): number {
+    //TODO
+    return -1;
+}
+
 interface LineData {
     min: number,
     max: number,
@@ -46,4 +51,5 @@ function getPassword(line: string): string {
     return line.split(" ")[2].replace("\r", "");
 }
 
-export { main as Day2 };
+export { main as Day2p1 };
+export { main2 as Day2p2 };
