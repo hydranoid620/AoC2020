@@ -1,22 +1,34 @@
-//  Input format:
-//      <min occurrences>-<max occurrences> <char>: <password>
+export { part1 as d2p1 };
+export { part2 as d2p2 };
 
-export function main(input: string): number {
+export function part1(input: string): number {
     let lineData: LineData[] = [];
     input.split("\n").forEach((element) => lineData.push(parseLine(element)));
 
     let validPasswords: number = 0;
     lineData.forEach((element) => {
         let count: number = element.password.split(element.character).length - 1;
-        if (count >= element.min && count <= element.max) validPasswords += 1;
+        if (count >= element.min && count <= element.max) validPasswords++;
     });
 
     return validPasswords;
 }
 
-export function main2(input: string): number {
-    //TODO
-    return -1;
+export function part2(input: string): number {
+    let lineData: LineData[] = [];
+    input.split("\n").forEach((element) => lineData.push(parseLine(element)));
+
+    let validPasswords: number = 0;
+    lineData.forEach((element) => {
+        let firstChar = element.password.charAt(element.min - 1);
+        let secondChar = element.password.charAt(element.max - 1);
+        //if ((firstChar === character) XOR (secondChar === character))
+        if ((firstChar === element.character) ? !((secondChar === element.character)) : ((secondChar === element.character))) {
+            validPasswords++;
+        }
+    });
+
+    return validPasswords;
 }
 
 interface LineData {
@@ -50,6 +62,3 @@ function getCharacter(line: string): string {
 function getPassword(line: string): string {
     return line.split(" ")[2].replace("\r", "");
 }
-
-export { main as Day2p1 };
-export { main2 as Day2p2 };
