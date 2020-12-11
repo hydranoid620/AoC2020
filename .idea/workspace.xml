@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed4d7165-933b-421f-a1b9-f8f47d5e5e38" name="Default Changelist" comment="Small changes">
+    <list default="true" id="ed4d7165-933b-421f-a1b9-f8f47d5e5e38" name="Default Changelist" comment="Day 2 part 2&#10;&#10;And small changes">
+      <change afterPath="$PROJECT_DIR$/Day3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Day3/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/main.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,8 @@
       <workItem from="1606943884562" duration="1143000" />
       <workItem from="1607392188251" duration="1883000" />
       <workItem from="1607394089974" duration="8664000" />
-      <workItem from="1607452068623" duration="1672000" />
+      <workItem from="1607452068623" duration="2242000" />
+      <workItem from="1607659046571" duration="779000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1607396415514</created>
@@ -95,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607452498778</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 2 part 2&#10;&#10;And small changes">
+      <created>1607453779135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607453779135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,8 @@
         <option value="$PROJECT_DIR$/main.js.map" />
         <option value="$PROJECT_DIR$/Day1/main.js.map" />
         <option value="$PROJECT_DIR$/Day2/main.js.map" />
+        <option value="$PROJECT_DIR$/Day3/main.js.map" />
+        <option value="$PROJECT_DIR$/Day3/main.js" />
       </list>
     </option>
   </component>
@@ -121,13 +131,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Day 2 Part 2" />
     <MESSAGE value="Day 2 Part 1" />
     <MESSAGE value="Small changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small changes" />
+    <MESSAGE value="Day 2 part 2&#10;&#10;And small changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2 part 2&#10;&#10;And small changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
